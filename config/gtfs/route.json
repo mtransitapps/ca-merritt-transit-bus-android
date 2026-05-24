@@ -3,8 +3,27 @@
     "use_route_short_name_for_route_id": false,
     "route_id_cleanup_regex": "\\-[A-Z]+$",
     "default_route_long_name_enabled": true,
-    "route_colors_ignored": [],
-    "route_colors": [],
+    "route_colors_ignored": [
+        "000000"
+    ],
+    "route_colors": [
+        {
+            "route_short_name": "1",
+            "color": "004B8D"
+        },
+        {
+            "route_short_name": "2",
+            "color": "8CC63F"
+        },
+        {
+            "route_short_name": "3",
+            "color": "F37421"
+        },
+        {
+            "route_short_name": "4",
+            "color": "ED1D8F"
+        }
+    ],
     "direction_finder_enabled": true,
     "allow_non_descriptive_head_signs_until": {},
     "trip_headsign_remove_via": true,
